@@ -1,39 +1,26 @@
 import express from 'express';
 import cors from 'cors';
 
-import fakeUsers from './fakeUsers.json' assert { type: "json" };
+import router from './routes/index.js';
+
+const PORT = 3001;
 
 const app = express();
-const port = 3001;
 
 app.use(cors());
 
-app.all('*', (_req, res) => {
-  res.json(fakeUsers.map((user)=>{
-    const names = user.name.split(' ');
-    const first_name = names.shift();
-    const last_name = names.join(' ');
-    const profileFromUser = {
-      id: user.id,
-      first_name,
-      last_name,
-      phone: user.phone,
-      email: user.email,
-      address: [user.address.street, user.address.suite].join(' '),
-      city: user.address.city,
-      state: '',
-      zip: user.address.zipcode,
-      photo: '',
-      notes: user.website || ''
-    }
-    return profileFromUser;
-  }))
-});
+app.set('base', '/api/v1');
+app.use('/api/v1', router);
 
 app.use((_req, res, _next) => {
     res.status(404).json("Couldn't find that resource");
-})
+});
 
-app.listen(port, () => {
-    console.log(`Reversed backend listening on port ${port}`);
+app.use((err, _req, res, _next) => {
+  console.error(err.stack)
+  res.status(500).send('Unhandled exception in backend. Please contact support.');
+});
+
+app.listen(PORT, () => {
+    console.log(`Reversed backend listening on port ${PORT}`);
 });
