@@ -45,4 +45,11 @@ profileRouter.get('/:id', (req, res) => {
     }
 });
 
+profileRouter.post('/', (req, res) => {
+    const newUser = req.body;
+    newUser.id = renderedUsers.length + 1;
+    renderedUsers.push(newUser);
+    res.json(newUser);
+});
+
 export { listRouter, profileRouter };
