@@ -31,7 +31,7 @@ app.all('*', (_req, res) => {
 });
 
 app.use((_req, res, _next) => {
-    res.status(404).send("Couldn't find that resource");
+    res.status(404).json("Couldn't find that resource");
 })
 
 app.listen(port, () => {
