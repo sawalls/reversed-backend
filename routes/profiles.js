@@ -31,7 +31,7 @@ listRouter.get('/', (_req, res) => {
 });
 
 
-// for /profile/:id
+// for /profile/*
 const profileRouter = express.Router();
 
 profileRouter.get('/:id', (req, res) => {
@@ -39,6 +39,17 @@ profileRouter.get('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const user = renderedUsers.find((user) => user.id === id);
     if (user) {
+        res.json(user);
+    } else {
+        res.status(404).json(`Couldn't find user with id ${id}`);
+    }
+});
+
+profileRouter.put('/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    const user = renderedUsers.find((user) => user.id === id);
+    if (user) {
+        Object.assign(user, req.body);
         res.json(user);
     } else {
         res.status(404).json(`Couldn't find user with id ${id}`);
