@@ -19,7 +19,7 @@ app.use((_req, res, _next) => {
 
 app.use((err, _req, res, _next) => {
   console.error(err.stack)
-  res.status(500).send('Unhandled exception in backend. Please contact support.');
+  res.status(500).json('Unhandled exception in backend. Please contact support.');
 });
 
 app.listen(PORT, () => {
