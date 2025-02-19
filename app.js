@@ -14,7 +14,7 @@ app.set('base', '/api/v1');
 app.use('/api/v1', router);
 
 app.use((_req, res, _next) => {
-    res.status(404).json("Couldn't find that resource");
+  res.status(404).json("Couldn't find that resource");
 });
 
 app.use((err, _req, res, _next) => {
@@ -23,5 +23,5 @@ app.use((err, _req, res, _next) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Reversed backend listening on port ${PORT}`);
+  console.log(`Reversed backend listening on port ${PORT}`);
 });
