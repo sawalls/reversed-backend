@@ -1,33 +1,12 @@
 import express from 'express';
 
-import fakeUsers from '../fakeUsers.json' assert { type: "json" };
-
-const renderedUsers = fakeUsers.map((user)=>{
-    const names = user.name.split(' ');
-    const first_name = names.shift();
-    const last_name = names.join(' ');
-    const profileFromUser = {
-      id: user.id,
-      first_name,
-      last_name,
-      phone: user.phone,
-      email: user.email,
-      address: [user.address.street, user.address.suite].join(' '),
-      city: user.address.city,
-      state: '',
-      zip: user.address.zipcode,
-      photo: '',
-      notes: user.website || ''
-    }
-    return profileFromUser;
-});
-
+import { inMemoryUsers } from '../lib/inMemoryUsers.js';
 
 // for /profiles
 const listRouter = express.Router();
 
 listRouter.get('/', (_req, res) => {
-    res.json(renderedUsers);
+    res.json(inMemoryUsers);
 });
 
 
@@ -37,7 +16,7 @@ const profileRouter = express.Router();
 profileRouter.get('/:id', (req, res) => {
     // TODO: better error message if id is not a number or not given
     const id = parseInt(req.params.id);
-    const user = renderedUsers.find((user) => user.id === id);
+    const user = inMemoryUsers.find((user) => user.id === id);
     if (user) {
         res.json(user);
     } else {
@@ -47,7 +26,7 @@ profileRouter.get('/:id', (req, res) => {
 
 profileRouter.put('/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    const user = renderedUsers.find((user) => user.id === id);
+    const user = inMemoryUsers.find((user) => user.id === id);
     if (user) {
         Object.assign(user, req.body);
         res.json(user);
@@ -58,8 +37,8 @@ profileRouter.put('/:id', (req, res) => {
 
 profileRouter.post('/', (req, res) => {
     const newUser = req.body;
-    newUser.id = renderedUsers.length + 1;
-    renderedUsers.push(newUser);
+    newUser.id = inMemoryUsers.length + 1;
+    inMemoryUsers.push(newUser);
     res.json(newUser);
 });
 
