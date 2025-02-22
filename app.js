@@ -4,8 +4,15 @@ import cors from 'cors';
 import router from './routes/index.js';
 
 const PORT = 3001;
+const SLOW_NETWORK = true; // set to true to simulate slow network so you can see loading states
 
 const app = express();
+
+if (SLOW_NETWORK) {
+  app.use((req, _res, next) => {
+    setTimeout(next, 1000);
+  });
+}
 
 app.use(cors());
 app.use(express.json());
