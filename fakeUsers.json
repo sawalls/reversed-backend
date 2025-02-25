@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Leanne Graham",
+    "name": "Ali Pazani",
     "username": "Bret",
     "email": "Sincere@april.biz",
     "address": {
@@ -16,6 +16,7 @@
     },
     "phone": "1-770-736-8031 x56442",
     "website": "hildegard.org",
+    "photo": "https://p-def8.pcloud.com/DLZmJ1eyiZhGaUIu7ZM4yQ7Z4ZacJdXkZNVZZbqVZZdUnXZ5QZU4ZCLZyWuaLYoOlSftlrqFTMgWuhrYGjVV/pexels-alipazani-2613260.jpg",
     "company": {
       "name": "Romaguera-Crona",
       "catchPhrase": "Multi-layered client-server neural-net",
@@ -24,7 +25,7 @@
   },
   {
     "id": 2,
-    "name": "Ervin Howell",
+    "name": "Bharat Kuiper",
     "username": "Antonette",
     "email": "Shanna@melissa.tv",
     "address": {
@@ -39,6 +40,7 @@
     },
     "phone": "010-692-6593 x09125",
     "website": "anastasia.net",
+    "photo": "https://p-def8.pcloud.com/DLZWm1eyiZHQ3UIu7ZM4yQ7Z4ZoyFdXkZNVZZbqVZZOxh0ZjYZmYZDRZNNRrJ0tvPPjnQ1ur2DrmH09DEtRX/pexels-bharatkuiper-2232981.jpg",
     "company": {
       "name": "Deckow-Crist",
       "catchPhrase": "Proactive didactic contingency",
@@ -62,6 +64,7 @@
     },
     "phone": "1-463-123-4447",
     "website": "ramiro.info",
+    "photo": "https://p-def3.pcloud.com/DLZc21eyiZIx3UIu7ZM4yQ7Z4ZC7FdXkZNVZZbqVZZW6mVZ3LZsLZQYZfS9Kokqoxl0FpJgUfwBovVhj6xty/pexels-danxavier-1239291.jpg",
     "company": {
       "name": "Romaguera-Jacobson",
       "catchPhrase": "Face to face bifurcated interface",
@@ -70,7 +73,7 @@
   },
   {
     "id": 4,
-    "name": "Patricia Lebsack",
+    "name": "David Garrison",
     "username": "Karianne",
     "email": "Julianne.OConner@kory.org",
     "address": {
@@ -85,6 +88,7 @@
     },
     "phone": "493-170-9623 x156",
     "website": "kale.biz",
+    "photo": "https://p-def7.pcloud.com/DLZT11eyiZD63UIu7ZM4yQ7Z4ZJkFdXkZNVZZbqVZZjMHXZ0FZOLZbRZnyiSrMvUai8P3KWhWYXHvf6alp4k/pexels-david-garrison-1128051-2128807.jpg",
     "company": {
       "name": "Robel-Corkery",
       "catchPhrase": "Multi-tiered zero tolerance productivity",
@@ -93,7 +97,7 @@
   },
   {
     "id": 5,
-    "name": "Chelsey Dietrich",
+    "name": "Elizaveta Dushechkina",
     "username": "Kamren",
     "email": "Lucio_Hettinger@annie.ca",
     "address": {
@@ -108,6 +112,7 @@
     },
     "phone": "(254)954-1289",
     "website": "demarco.info",
+    "photo": "https://p-def4.pcloud.com/DLZcj61yiZua8OIu7ZM4yQ7Z4ZPkFdXkZNVZZbqVZZyYokZhzZn4ZuLZ4YMgQqvgfy5vHlvHglMSbVRtHx9y/pexels-elizaveta-dushechkina-2099536-3750717.jpg",
     "company": {
       "name": "Keebler LLC",
       "catchPhrase": "User-centric fault-tolerant solution",
@@ -116,7 +121,7 @@
   },
   {
     "id": 6,
-    "name": "Mrs. Dennis Schulist",
+    "name": "Mrs. Pixa Bay",
     "username": "Leopoldo_Corkery",
     "email": "Karley_Dach@jasper.info",
     "address": {
@@ -131,6 +136,7 @@
     },
     "phone": "1-477-935-8478 x6430",
     "website": "ola.org",
+    "photo": "https://p-def1.pcloud.com/DLZ9KeeyiZNNvUIu7ZM4yQ7Z4ZdXFdXkZNVZZbqVZZ06MkZcQZEzZ3HZRKHOMluXN10sdiKgEd8tI0OkOU47/pexels-pixabay-415829.jpg",
     "company": {
       "name": "Considine-Lockman",
       "catchPhrase": "Synchronised bottom-line interface",
@@ -139,7 +145,7 @@
   },
   {
     "id": 7,
-    "name": "Kurtis Weissnat",
+    "name": "Olly Oxenfree",
     "username": "Elwyn.Skiles",
     "email": "Telly.Hoeger@billy.biz",
     "address": {
@@ -154,6 +160,7 @@
     },
     "phone": "210.067.6132",
     "website": "elvis.io",
+    "photo": "https://p-def6.pcloud.com/DLZBPeeyiZTqvUIu7ZM4yQ7Z4ZxXFdXkZNVZZbqVZZ0mUkZqRZSQZfLZhziyYs7jpjSEtH4jkohVqmOyK2X7/pexels-olly-733872.jpg",
     "company": {
       "name": "Johns Group",
       "catchPhrase": "Configurable multimedia task-force",
@@ -162,7 +169,7 @@
   },
   {
     "id": 8,
-    "name": "Nicholas Runolfsdottir V",
+    "name": "Nicha Runolfsdottir V",
     "username": "Maxime_Nienow",
     "email": "Sherwood@rosamond.me",
     "address": {
@@ -177,6 +184,7 @@
     },
     "phone": "586.493.6943 x140",
     "website": "jacynthe.com",
+    "photo": "https://p-def1.pcloud.com/DLZwDeeyiZJMvUIu7ZM4yQ7Z4ZTXFdXkZNVZZbqVZZXvBXZaLZX0ZG8ZxkEC99SBTeuDJDB8bE5PrY2T1uSk/pexels-marcelodias-2104252.jpg",
     "company": {
       "name": "Abernathy Group",
       "catchPhrase": "Implemented secondary concept",
@@ -185,7 +193,7 @@
   },
   {
     "id": 9,
-    "name": "Glenna Reichert",
+    "name": "Justin Shaifer",
     "username": "Delphine",
     "email": "Chaim_McDermott@dana.io",
     "address": {
@@ -200,6 +208,7 @@
     },
     "phone": "(775)976-6794 x41206",
     "website": "conrad.com",
+    "photo": "https://p-def6.pcloud.com/DLZ7heeyiZL8vUIu7ZM4yQ7Z4Z1XFdXkZNVZZbqVZZV22XZi8ZlpZQLZJ4l4TnEV2phNeANMaymkFy0RULLk/pexels-justin-shaifer-501272-1222271.jpg",
     "company": {
       "name": "Yost and Sons",
       "catchPhrase": "Switchable contextually-based project",
@@ -208,7 +217,7 @@
   },
   {
     "id": 10,
-    "name": "Clementina DuBuque",
+    "name": "Italo Melo",
     "username": "Moriah.Stanton",
     "email": "Rey.Padberg@karina.biz",
     "address": {
@@ -223,6 +232,7 @@
     },
     "phone": "024-648-3804",
     "website": "ambrose.net",
+    "photo": "https://p-def3.pcloud.com/DLZD8eeyiZhFvUIu7ZM4yQ7Z4Z2XFdXkZNVZZbqVZZwub0ZCLZN4ZjLZeTWLXrTF0ekXmWoBjL68bprP9mVX/pexels-italo-melo-881954-2379005.jpg",
     "company": {
       "name": "Hoeger LLC",
       "catchPhrase": "Centralized empowering task-force",
