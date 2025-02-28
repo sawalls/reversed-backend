@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "schala reverse engineering the backend of the rivet coding challenge",
   "license": "ISC",
-  "author": "",
+  "author": "Schala Walls",
   "type": "module",
   "main": "app.js",
   "scripts": {
@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "node": "^22.13.0"
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=22.13.0",
+    "npm": ">=11.0.0"
   }
 }
