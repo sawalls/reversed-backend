@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "node watch",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\app.js",
+      "program": "${workspaceFolder}/app.js",
       "args": ["--watch"],
       "presentation": {
         "hidden": false,
